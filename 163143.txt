@@ -1,0 +1,85 @@
+Вашите информации тука
+4. 
+mkdir SI_2024_lab1_163143
+cd SI_2024_lab1_163143
+git init
+5.
+git remote add origin https://github.com/stomarija/SI_2024_lab1_163143.git
+git branch -M master
+git push origin master
+git remote -v
+6.
+touch README.md
+nano README.md
+git add README.md
+git config user.email marija.stojanovska@students.finki.ukim.mk
+git config user.name ma100ma100
+git commit -m "Initial commit"
+7.
+git add .
+git commit -m "Add starter code"
+8.
+git status
+git add .
+git commit -m "Commit message"
+git fetch --all
+git pull --all origin
+git add SILab1_1.java SILab1_2.java
+9.
+git checkout -b bug1 master
+git checkout -b bug2 master
+10.
+git checkout bug1
+11.
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+git push origin bug1
+12.
+git checkout bug2
+13.
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14.
+git checkout bug1
+15.
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16.
+git checkout bug2
+17.
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+18.
+git push --all origin
+19.
+git checkout master
+20.
+git merge bug1
+21.
+git checkout master
+git fetch origin
+git merge origin/master
+22.
+git checkout bug2
+23.
+git rebase master
+git rebase --continue
+git rebase --abort
+24.
+git checkout master
+25.
+git merge bug2
+26.
+git fetch origin
+git branch --set-upstream-to=origin/master master
+git pull --all
+27.
+git fetch --all
+git pull --all
+git push --force origin bug2
+28.
+git log > logs.txt
+echo "Вашите информации тука" > 163143.txt
+git add logs.txt 163143.txt
+git commit -m "Final commit"
+

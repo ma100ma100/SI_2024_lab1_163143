@@ -1,0 +1,61 @@
+commit 545f704389f57f4eae04c02184bf9d374cd11147
+Merge: d0f2e60 9f5de6d
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 02:49:19 2024 +0200
+
+    Merge branch 'bug2'
+
+commit d0f2e601a7bce175dc611a085d7d4a1ced2f129c
+Merge: d9ae933 b04da72
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 02:30:58 2024 +0200
+
+    Commit message
+
+commit b04da72de82321dd6cd95c5e9be10304defcdd75
+Author: Marija Stojanovska <166904787+ma100ma100@users.noreply.github.com>
+Date:   Sun Apr 14 02:04:26 2024 +0200
+
+    Update SILab1_2.java
+
+commit 9f5de6dd735d6deea68c0332fb4fabc5b4d80d9d
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 02:01:32 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit d9ae933d99476e020f6b83fb0c443d29be5ff04e
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 01:58:08 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 109c8dc136cebe855945aea36dd20783a4dcc31d
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 01:55:21 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit a51cd4da23e621ee534439909316ba18b76f325b
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 01:19:48 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f61917e871e6015d2a2b94c30e3c3fe6ebea36c0
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 00:09:07 2024 +0200
+
+    Исправена грешка во методот filterOddLengthStrings
+
+commit e12c1a25d8b6ef96096ecfa613d6ca0e4eeed88f
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 00:00:54 2024 +0200
+
+    Add starter code
+
+commit 51da64010b6295f577275d0fd1573c6ef37efaf3
+Author: ma100ma100 <marija.stojanovska@students.finki.ukim.mk>
+Date:   Sat Apr 13 23:58:02 2024 +0200
+
+    Initial commit
